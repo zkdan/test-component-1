@@ -1,11 +1,11 @@
 # Notice the v1beta3 version
-apiVersion: scaffolder.backstage.io/v1beta3
+apiVersion: scaffolder.backstage.io/v1beta2
 kind: Template
 # some metadata about the template itself
 metadata:
-  name: v1beta3-demo
-  title: Test Action template
-  description: scaffolder v1beta3 template demo
+  name: test-template
+  title: Test Template
+  description: template demo
 spec:
   owner: user:zkdan
   type: service
@@ -19,14 +19,14 @@ spec:
         name:
           title: Name
           type: string
-          description: Unique name of the component
+          description: Unique name of the component 🐊
           ui:autofocus: true
           ui:options:
             rows: 5
         owner:
           title: Owner
           type: string
-          description: Owner of the component
+          description: Owner of the component 🧁
           ui:field: OwnerPicker
           ui:options:
             catalogFilter:
