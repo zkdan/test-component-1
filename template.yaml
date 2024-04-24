@@ -5,10 +5,10 @@ kind: Template
 metadata:
   name: test-template
   title: Test Template
-  description: template demo
+  description: template demo test
 spec:
   owner: user:zkdan
-  type: service
+  type: website
 
   # these are the steps which are rendered in the frontend with the form input
   parameters:
