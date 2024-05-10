@@ -4,7 +4,7 @@ kind: Template
 # some metadata about the template itself
 metadata:
   name: test-template
-  title: Test Template
+  title: Test Template 🥶
   description: template demo test
 spec:
   owner: user:zkdan
